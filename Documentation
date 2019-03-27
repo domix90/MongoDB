@@ -1,0 +1,16 @@
+Timestamps in Mongo: https://docs.mongodb.org/manual/reference/bson-types/#timestamps
+
+ISODate reading: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString
+https://docs.mongodb.org/v3.0/reference/method/Date/
+
+Installation of MonogoDB 
+
+Homebrew - http://brew.sh/
+
+https://www.mongodb.com/download-center#community
+
+http://treehouse.github.io/installation-guides/windows/mongo-windows.html
+
+ SQL to Mongo https://docs.mongodb.com/manual/reference/sql-comparison/
+
+NoSQL explained https://www.mongodb.com/nosql-explained
