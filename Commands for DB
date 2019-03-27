@@ -8,10 +8,18 @@ I can run
 
 db.[collection name].[count()]OR.[limit()]OR.[getIndexes()]
 
-db.find()
+db.find() -returns a document from a collection 
 
 db.limit() - limit the amount of documents returned
 
 db.getCollectionNames()
 
 To delete a self-created index db.[collection name].dropIndex('title_x');
+
+------------
+
+db.[collection name].findOne()
+
+I can filter out information I want to return from the db by 
+
+db.[collection name].find({}, {title: true, description: false, body: false})
