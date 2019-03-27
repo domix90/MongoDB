@@ -1,0 +1,15 @@
+var db = my database 
+
+show dbs -> use "name of the db"
+
+Once I have the names of the collection in the db 
+
+I can run 
+
+db.[collection name].[count()]OR.[limit()]OR.[getIndexes()]
+
+db.find()
+
+db.limit() - limit the amount of documents returned
+
+db.getCollectionNames()
