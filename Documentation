@@ -14,3 +14,8 @@ http://treehouse.github.io/installation-guides/windows/mongo-windows.html
  SQL to Mongo https://docs.mongodb.com/manual/reference/sql-comparison/
 
 NoSQL explained https://www.mongodb.com/nosql-explained
+
+Why ascending or descending indexes matter in Mongo: http://stackoverflow.com/questions/10329104/why-does-direction-of-index-matter-in-mongodb
+
+
+The db.colleciton.createIndex method documentation: https://docs.mongodb.org/v3.0/reference/method/db.collection.createIndex/#db.collection.createIndex
