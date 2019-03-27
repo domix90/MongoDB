@@ -23,3 +23,8 @@ db.[collection name].findOne()
 I can filter out information I want to return from the db by 
 
 db.[collection name].find({}, {title: true, description: false, body: false})
+
+We can search for data in the db with strings (exact match!) using $or:
+The string looks like that
+
+db.[collection name].find({$or: [{title: "lalalallalla"}, {title: "uyysysysysys"}]}, {body: false}) 
