@@ -13,3 +13,5 @@ db.find()
 db.limit() - limit the amount of documents returned
 
 db.getCollectionNames()
+
+To delete a self-created index db.[collection name].dropIndex('title_x');
