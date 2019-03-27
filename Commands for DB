@@ -28,3 +28,9 @@ We can search for data in the db with strings (exact match!) using $or:
 The string looks like that
 
 db.[collection name].find({$or: [{title: "lalalallalla"}, {title: "uyysysysysys"}]}, {body: false}) 
+
+Mongo’s query operators - https://docs.mongodb.org/v3.0/reference/operator/query/
+
+mongo-hacker: https://github.com/TylerBrock/mongo-hacker
+
+Mongo’s update modifiers: https://docs.mongodb.org/v3.0/reference/operator/update/
